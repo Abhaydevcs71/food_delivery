@@ -2,6 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:fudoh/authScreens/auth_screen.dart';
+import 'package:fudoh/constants/app_colors.dart';
+import 'package:fudoh/constants/app_strings.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -36,10 +38,10 @@ class _SplashScreenState extends State<SplashScreen> {
               padding: const EdgeInsets.all(10),
               child: Image.asset("assets/images/splash.webp"),
             ),
-            const Text(
-              "FudOh",
+             Text(
+              kAppName,
               style:
-                  TextStyle(letterSpacing: 3, fontSize: 26, color: Colors.grey),
+                  TextStyle(letterSpacing: 3, fontSize: 26, color: kcPrimaryColor),
             )
           ],
         ),

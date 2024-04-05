@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:fudoh/constants/app_colors.dart';
+import 'package:fudoh/constants/app_strings.dart';
 import 'package:fudoh/splashscreen/splashscreen.dart';
 
 void main() {
@@ -13,9 +15,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: ThemeData.dark().copyWith(
-          scaffoldBackgroundColor: const Color.fromARGB(255, 21, 41, 57)),
+      title: kAppName,
+      theme: ThemeData.light(
+        
+      ).copyWith(
+        
+          scaffoldBackgroundColor: kWhiteColor),
+          
       home: const SplashScreen(),
     );
   }

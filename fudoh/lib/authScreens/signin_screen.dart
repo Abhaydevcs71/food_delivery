@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fudoh/constants/app_colors.dart';
 import 'package:fudoh/widgets/custom_text_fields.dart';
 
 class SigninScreen extends StatefulWidget {
@@ -49,7 +50,7 @@ class _SigninScreenState extends State<SigninScreen> {
               const SizedBox(height: 10,),
               ElevatedButton(onPressed: (){},
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blueAccent,
+                backgroundColor: kcPrimaryColor,
                 padding: const EdgeInsets.symmetric(horizontal: 70,vertical: 20)
               ), child: const Text("Login",style: TextStyle(
                 color: Colors.white,

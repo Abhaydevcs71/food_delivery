@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:fudoh/authScreens/signin_screen.dart';
 import 'package:fudoh/authScreens/signup_screen.dart';
+import 'package:fudoh/constants/app_colors.dart';
+import 'package:fudoh/constants/app_strings.dart';
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({super.key});
@@ -17,34 +19,34 @@ class _AuthScreenState extends State<AuthScreen> {
         child: Scaffold(
           appBar: AppBar(
             automaticallyImplyLeading: false,
-            title: const Text(
-              "FudOh",
-              style: TextStyle(fontSize: 26, color: Colors.deepPurpleAccent),
+            title:  Text(
+              kAppName,
+              style: TextStyle(fontSize: 26, color: kcPrimaryColor),
             ),
             centerTitle: true,
-            bottom: const TabBar(
+            bottom:  TabBar(
               tabs: [
                 Tab(
                   icon: Icon(
                     Icons.login_outlined,
-                    color: Colors.blueGrey,
+                    color: kcPrimaryColor,
                   ),
                   text: "Sign In",
                 ),
                 Tab(
                   icon: Icon(
                     Icons.person,
-                    color: Colors.blueGrey,
+                    color: kcPrimaryColor,
                   ),
                   text: "Signup",
                 )
               ],
-              indicatorColor: Colors.black,
+              indicatorColor: kcPrimaryColor,
               indicatorWeight: 5,
             ),
           ),
           body: Container(
-            color: Colors.black,
+            color: kWhiteColor,
             child: const TabBarView(children: [
               SigninScreen(),
               SignupScreen(),
