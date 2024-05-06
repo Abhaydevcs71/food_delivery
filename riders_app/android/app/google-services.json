@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "379196154780",
+    "project_id": "fudoh-461b7",
+    "storage_bucket": "fudoh-461b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379196154780:android:f0af4b5fe9cff0e06fde59",
+        "android_client_info": {
+          "package_name": "com.example.fudoh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABYrjaqZ6BW5oEjj1JPkTjfa5mWK3vMPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379196154780:android:da95439fd0e9e5766fde59",
+        "android_client_info": {
+          "package_name": "com.example.riders_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABYrjaqZ6BW5oEjj1JPkTjfa5mWK3vMPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379196154780:android:8cf54e33fb230daf6fde59",
+        "android_client_info": {
+          "package_name": "com.example.user_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABYrjaqZ6BW5oEjj1JPkTjfa5mWK3vMPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
