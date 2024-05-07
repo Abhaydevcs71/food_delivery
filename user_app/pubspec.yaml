@@ -39,6 +39,7 @@ dependencies:
   geocoding: ^3.0.0
   geolocator: ^11.0.0
   image_picker: ^1.0.7
+  intl:
   logger: ^2.2.0
   number_inc_dec: ^0.8.0
   pay: ^2.0.0

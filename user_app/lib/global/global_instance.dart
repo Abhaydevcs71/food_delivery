@@ -8,7 +8,7 @@ import 'package:user_app/viewModel/common_view_model.dart';
 import 'package:user_app/viewModel/home_view_model.dart';
 import 'package:user_app/viewModel/item_view_model.dart';
 import 'package:user_app/viewModel/menu_view_model.dart';
-import 'package:user_app/viewModel/orders_view_holdr.dart';
+import 'package:user_app/viewModel/orders_view_model.dart';
 
 CommonViewModel commonViewModel = CommonViewModel();
 AuthViewModel authViewModel = AuthViewModel();
@@ -17,5 +17,5 @@ MenuViewModel menuViewModel = MenuViewModel();
 ItemViewModel itemViewModel = ItemViewModel();
 CartViewModel cartViewModel = CartViewModel();
 AddressViewModel addressViewModel = AddressViewModel();
-OrderViewHolder orderViewHolder = OrderViewHolder();
+OrderViewModel orderViewModel = OrderViewModel();
 var log = Logger();

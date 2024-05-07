@@ -4,6 +4,7 @@ import 'package:user_app/constants/app_colors.dart';
 import 'package:user_app/global/global_instance.dart';
 import 'package:user_app/global/global_vars.dart';
 import 'package:user_app/views/mainscreen/homescreen.dart';
+import 'package:user_app/views/mainscreen/my_orders_screen.dart';
 import 'package:user_app/views/splashscreen/splashscreen.dart';
 
 
@@ -81,7 +82,7 @@ class MyDrawer extends StatelessWidget {
                   
                   ),
                   onTap: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const HomeScreen(),));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => const MyOrdersScreen(),));
                   },
                 ),
 

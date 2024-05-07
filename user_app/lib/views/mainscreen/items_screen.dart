@@ -1,11 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:user_app/constants/app_colors.dart';
 import 'package:user_app/global/global_instance.dart';
 import 'package:user_app/model/item.dart';
 import 'package:user_app/model/menus.dart';
-import 'package:user_app/views/splashscreen/splashscreen.dart';
+import 'package:user_app/views/mainscreen/homescreen.dart';
 import 'package:user_app/widgets/item_ui_design.dart';
-import 'package:user_app/widgets/my_appbar.dart';
 import 'package:user_app/widgets/my_drawer.dart';
 
 class ItemsScreen extends StatelessWidget {
@@ -18,11 +18,14 @@ class ItemsScreen extends StatelessWidget {
     return Scaffold(
       drawer: const MyDrawer(),
       appBar: AppBar(
-        title: Text("${menuModel!.sellerName}'s Items"),
+        backgroundColor: kcPrimaryColor,
+        title: Text("${menuModel!.sellerName}'s Items",style: TextStyle(
+          color: kWhiteColor
+        ),),
         centerTitle: true,
         leading: IconButton(onPressed: () {
           if(value == "rp"){
-            Navigator.push(context, MaterialPageRoute(builder: (context) => const SplashScreen(),));
+            Navigator.push(context, MaterialPageRoute(builder: (context) => const HomeScreen(),));
 
           }else{
             Navigator.pop(context);

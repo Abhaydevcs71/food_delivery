@@ -25,7 +25,7 @@ class _AddressScreenState extends State<AddressScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:  Text("Select Address${widget.totalAmount}"),
+        title:  const Text("Select Address"),
         centerTitle: true,
         automaticallyImplyLeading: true,
       ),
