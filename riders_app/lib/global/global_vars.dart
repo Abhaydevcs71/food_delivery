@@ -9,3 +9,8 @@ Position? position;
   String fullAddress = "";
 
   SharedPreferences? sharedPreferences;
+
+  String previousRiderEarnings = "";
+  String previousSellerEarnings = "";
+  String orderTotalAmount = "";
+  String amountChargedPerDelivery = "40";
